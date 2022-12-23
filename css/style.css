@@ -146,8 +146,83 @@ h6 {
 #tsunami {
 	background-image: url(../images/tsunami.jpeg);
 	background-position: center;
+	color:rgb(16, 14, 14);
 }
 /*---------END OF SKILLS------------ */
+
+/*---------NEW SKILLS LAYOUT------------ */
+
+.newProjectDisplay {
+	background-color: #212121;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: wrap;
+	margin: 0;
+	height: 100%;
+  }
+
+figure.snip1113 {
+	font-family: 'Raleway', Arial, sans-serif;
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+	min-width: 120px;
+	max-width: 220px;
+	width: 100%;
+	background: #ffffff;
+	text-align: center;
+	box-shadow: 0 0 5px rbga(0, 0, 0, 0.15);
+}
+
+figure.snip1113 img {
+	max-width: 65%;
+	margin: 40px auto;
+	display: block;
+	position: relative;
+	border: 3px solid #666666;
+	padding: 15px 15px 65px 15px;
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+
+figure.snip1113 figcaption {
+	position: absolute;
+	height: 100px;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	display: block;
+}
+
+figure.snip1113 h3 {
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 1.3em;
+	width: 100%;
+	padding: 5px 12px;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+figure.snip1113 h3 span {
+	font-weight: 800;
+  }
+
+figure.snip1113.red img {
+	border-color: #ab3326;
+  }
+  
+  figure.snip1113.red h3,
+figure.snip1113.red h4 {
+  color: #ab3326;
+}
+
+
+
+
+/*---------END OF NEW SKILL LAYOUT------------ */
+
 /*---------CONTACT FORM------------- */
 
 input[type=text], select, textarea {
