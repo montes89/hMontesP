@@ -290,7 +290,7 @@ input[type=submit]:hover {
 	position: relative;
 	width: calc(100% / 2 - 13px);
   }
-  .wrapper form i{
+  .wrapper form {
 	position: absolute;
 	top: 50%;
 	left: 18px;
@@ -318,14 +318,14 @@ input[type=submit]:hover {
 	padding-left: 47px;
 	border: 2px solid #0D6EFD;
   }
-  .field input:focus ~ i,
-  .message textarea:focus ~ i{
+  .field input:focus,
+  .message textarea:focus{
 	color: #0D6EFD;
   }
   form .message{
 	position: relative;
   }
-  form .message i{
+  form .message{
 	top: 30px;
 	font-size: 20px;
   }
